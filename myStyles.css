@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 22px;
+}
+
+.firstalbum{
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 26px;
+  text-shadow: 2px 2px orange;
+
+
+}
+
+.links{
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 26px;
+  text-shadow: 2px 2px orange;
+}
+
+.border{
+  width: 320px;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 0;
+  left: 50%;
+  margin-left: 36%;
+}
+
+.ghostbutton{
+  color: #fff;
+  border: 2px solid #fafafa;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 4px;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  min-width: 120px;
+  font-weight: 400px;
+  position: absolute;
+  top: 60%;
+  -webkit-transform: translateX(-10%) translateY(-10%);
+  -ms-transform: translateX(-10%) translateY(-10%);
+  transform: translateX(-10%) translateY(-10%);
+  margin: 50;
+  left: 40%;
+  margin-left: 5%;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.newbutton{
+  color: #fff;
+  border: 2px solid #fafafa;
+  border-radius: 4px;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  min-width: 120px;
+  font-weight: 400px;
+  display: inline-block;
+}
+
+.say{
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 26px;
+  text-shadow: 2px 2px red;
+}
+
+.wave{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif; font-size: 26px;
+  text-shadow: 2px 2px orange;
+}
